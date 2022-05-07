@@ -1,0 +1,212 @@
+* {
+    
+}
+
+html {
+    max-width: 1600px;
+    min-width: 500px;
+    background: rgba(31, 29, 35, 1);
+}
+
+body {
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+p {
+    color: #ffffff;
+}
+
+hr {
+    margin: 45px 0 15px 0;
+    width: 95%;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.line-bar-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.pfont-style {
+    line-height: 1.5;
+    font-size: 22px;
+}
+
+.nav-container {
+    min-height: 80px;
+    width: 100%;
+    background: rgba(31, 29, 35, 1);
+
+    display: flex;
+    min-width: 100%;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    margin: 0 40px 0 40px
+}
+
+.ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    justify-content: end;
+    align-items: center
+}
+
+.ull {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+
+.nav-link {
+    margin: 0 20px 0 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.first-link {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.last-link {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home-main {
+    margin: 0 0px 0 40px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.home-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-paragraphs {
+    width:70%;
+}
+
+.welcome-h1 {
+    font-size:40px;
+    color: #ffffff;
+    margin-bottom: 35px;
+}
+
+.litter-h1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px 0 30px 0;
+}
+
+.litter-h1 {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.main-image {
+    height: 600px;
+    width: 500px;
+    margin-bottom: 50px;
+    object-fit: cover;
+}
+
+.main-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 25px 0;
+    width: 50%;
+}
+
+.detail-container {
+    display: flex;
+    width: 500px;
+}
+
+.dog-detail-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-inline-start: 0px;
+}
+
+
+.details {
+    display: flex;
+    flex-direction: row;
+}
+
+.category {
+    margin-right: 20px;
+    color: red;
+}
+
+.read-more {
+    margin:40px 0 90px 0;
+    line-height: 40px;
+    padding: 0 35px;
+    background: bisque;
+    border-width: 0;
+    color: rgba(31, 29, 35, 1);
+    font-size: 16px;
+
+
+}
+
+.foot {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.foot-nav {
+    display: flex;
+    width: 70%;
+    
+}
+
+.foot-ul {
+    /* width: 70%; */
+    padding-inline-start: 0px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.follow {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.fa-instagram {
+    color: #ffffff;
+}
+
