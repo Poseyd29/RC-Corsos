@@ -155,12 +155,14 @@ a {
         padding-right: 0.5em;
     }
 
-    body > main > section:nth-child(2) > ul > li > p:nth-child(2) {
+    body > main > section > section:nth-child(1) > ul > li > p:nth-child(2) {
         color: #b18879;
+        font-size: 16px;
     }
 
-    body > main > section:nth-child(3) > ul > li > p:nth-child(2) {
+    body > main > section > section:nth-child(2) > ul > li > p:nth-child(2) {
         color: #b18879;
+        font-size: 16px;
     }
 }
 
@@ -272,12 +274,14 @@ a {
         padding-right: 0.5em;
     }
 
-    body > main > section:nth-child(2) > ul > li > p:nth-child(2) {
+    body > main > section > section:nth-child(1) > ul > li > p:nth-child(2) {
         color: #b18879;
+        font-size: 24px;
     }
 
-    body > main > section:nth-child(3) > ul > li > p:nth-child(2) {
+    body > main > section > section:nth-child(2) > ul > li > p:nth-child(2) {
         color: #b18879;
+        font-size: 24px;
     }
 
 }
@@ -520,16 +524,16 @@ a {
 
     .category {
         padding-right: 0.5em;
-        font-size: 20\4px;
+        font-size: 24px;
     }
 
-    body > main > section:nth-child(2) > ul > li > p:nth-child(2) {
+    body > main > section > section:nth-child(1) > ul > li > p:nth-child(2) {
         color: #b18879;
-        font-size: 20px;
+        font-size: 24px;
     }
 
-    body > main > section:nth-child(3) > ul > li > p:nth-child(2) {
+    body > main > section > section:nth-child(2) > ul > li > p:nth-child(2) {
         color: #b18879;
-        font-size: 20px;
+        font-size: 24px;
     }
 }
