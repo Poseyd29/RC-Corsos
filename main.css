@@ -2,7 +2,7 @@
     
 }
 
-color: rgba(31, 29, 35, 1);
+
 
 
 
@@ -25,6 +25,14 @@ html {
 
 a {
     text-decoration: none;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.cream {
+    color: rgb(255,228,196);
 }
 
 .flex {
@@ -91,13 +99,437 @@ a {
     .home-p {
         width: 90%;
     }
+
+    .read-more {
+        padding: 0.8em 1em;
+        margin: 2em;
+        background-color: rgb(255,228,196);
+        border-width: 0px;
+        border-style: none;
+    }
+
+    .line-bar-container {
+        margin: 1.3em 0;
+    }
+
+    .foot {
+        justify-content: center;
+    }
+
+    .follow {
+        padding-right: 0.6em;
+    }
+
+
+    /* Litters Page */
+
+    .our-dogs {
+        font-size: 2em;
+        padding-top: 1em;
+    }
+
+    .dog-img-container {
+        width: 100%;
+    }
+
+    .dog-img {
+        width: 100%;
+    }
+
+    .dog-details {
+        width: 100%;
+        padding: 2em 0;
+    }
+
+    .dog-detail-list {
+        list-style: none;
+        padding-inline-start: 0px;
+        padding-left: 0.5em;
+    }
+
+    .details {
+
+    }
+
+    .category {
+        padding-right: 0.5em;
+    }
+
+    body > main > section:nth-child(2) > ul > li > p:nth-child(2) {
+        color: #b18879;
+    }
+
+    body > main > section:nth-child(3) > ul > li > p:nth-child(2) {
+        color: #b18879;
+    }
 }
+
+
+
 @media (min-width: 649px) {
+    .nav {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        list-style: none;
+        justify-content: flex-end;
+        margin-right: 1em;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0.75em;
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .welcome-h1 {
+        font-size: 30px;
+    }
+
+    .home-main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .home-paragraph {
+        width: 100%;
+    }
+
+    .home-p {
+        width: 90%;
+    }
+
+    .pfont-style {
+        font-size: 20px;
+    }
+
+    .read-more {
+        padding: 0.8em 1em;
+        margin: 2em;
+        background-color: rgb(255,228,196);
+        border-width: 0px;
+        border-style: none;
+    }
+
+    .line-bar-container {
+        margin: 1.3em 0;
+    }
+
+    .foot {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .follow {
+        padding-right: 0.6em;
+        font-size: 20px
+    }
+
+    .our-dogs {
+        font-size: 2em;
+        padding-top: 1em;
+    }
+
+    .dog-img-container {
+        width: 100%;
+    }
+
+    .dog-img {
+        width: 100%;
+    }
+
+    .dog-details {
+        width: 100%;
+        padding: 2em 0;
+    }
+
+    .dog-detail-list {
+        list-style: none;
+        padding-inline-start: 0px;
+        padding-left: 0.5em;
+    }
+
+    .details {
+
+    }
+
+    .category {
+        padding-right: 0.5em;
+    }
+
+    body > main > section:nth-child(2) > ul > li > p:nth-child(2) {
+        color: #b18879;
+    }
+
+    body > main > section:nth-child(3) > ul > li > p:nth-child(2) {
+        color: #b18879;
+    }
 
 }
-@media (min-width: 649px) {
 
+
+
+@media (min-width: 750px) {
+    .nav {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        list-style: none;
+        justify-content: flex-end;
+        margin-right: 1em;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0.75em;
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .welcome-h1 {
+        font-size: 36px;
+    }
+
+    .home-main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .home-paragraph {
+        width: 100%;
+    }
+
+    .home-p {
+        width: 90%;
+    }
+
+    .pfont-style {
+        font-size: 20px;
+    }
+
+    .read-more {
+        padding: 0.8em 1em;
+        margin: 2em;
+        background-color: rgb(255,228,196);
+        border-width: 0px;
+        border-style: none;
+    }
+
+    .line-bar-container {
+        margin: 1.3em 0;
+    }
+
+    .foot {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .follow {
+        padding-right: 0.6em;
+        font-size: 20px
+    }
+
+    .our-dogs {
+        font-size: 2.5em;
+        padding-top: 1em;
+    }
+
+    .dog-img-container {
+        width: 100%;
+    }
+
+    .dog-img {
+        width: 100%;
+    }
+
+    .dog-details {
+        width: 100%;
+        padding: 2em 0;
+    }
+
+    .dog-detail-list {
+        list-style: none;
+        padding-inline-start: 0px;
+        padding-left: 0.5em;
+    }
+
+    .details {
+
+    }
+
+    .category {
+        padding-right: 0.5em;
+        font-size: 20px;
+    }
+
+    body > main > section > section:nth-child(1) > ul > li > p:nth-child(2) {
+        color: #b18879;
+        font-size: 20px;
+    }
+
+    body > main > section > section:nth-child(2) > ul > li > p:nth-child(2) {
+        color: #b18879;
+        font-size: 20px;
+    }
 }
+
+
+
 @media (min-width: 1175px) {
+    .nav {
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+    }
 
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        list-style: none;
+        justify-content: flex-end;
+        margin-right: 1em;
+    }
+
+    .nav-link {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0.75em;
+        text-decoration: none;
+        font-size: 24px;
+
+    }
+
+    .main-image {
+        width: 100%;
+    }
+
+    .welcome-h1 {
+        font-size: 48px;
+    }
+
+    .home-main {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .home-paragraph {
+        width: 100%;
+    }
+
+    .home-p {
+        width: 90%;
+    }
+
+    .pfont-style {
+        font-size: 20px;
+    }
+
+    .read-more {
+        padding: 0.8em 1em;
+        margin: 2em;
+        background-color: rgb(255,228,196);
+        border-width: 0px;
+        border-style: none;
+    }
+
+    .line-bar-container {
+        margin: 1.3em 0;
+    }
+
+    .foot {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .follow {
+        padding-right: 0.6em;
+        font-size: 24px
+    }
+
+    .our-dogs {
+        font-size: 2.5em;
+        padding-top: 1em;
+    }
+
+    .our-dogs-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .dog-img-container {
+        display: flex;
+        width: 100%;
+        max-height: 550px;
+    }
+
+    .dog-img {
+        display: flex;
+        width: 100%;
+        height: 475px;
+        /* object-fit: contain; */
+    }
+
+    .dog-details {
+        width: 100%;
+        padding: 2em 0;
+        margin: 2em;
+    }
+
+    .dog-detail-list {
+        list-style: none;
+        padding-inline-start: 0px;
+        padding-left: 0.5em;
+    }
+
+    .details {
+
+    }
+
+    .category {
+        padding-right: 0.5em;
+        font-size: 20\4px;
+    }
+
+    body > main > section:nth-child(2) > ul > li > p:nth-child(2) {
+        color: #b18879;
+        font-size: 20px;
+    }
+
+    body > main > section:nth-child(3) > ul > li > p:nth-child(2) {
+        color: #b18879;
+        font-size: 20px;
+    }
 }

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="litters.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Lato:wght@300&family=Quicksand:wght@400;600&display=swap"
@@ -16,111 +16,107 @@
 </head>
 
 <body>
-    <header class="nav-container">
-        <nav class="navbar quicksand">
-            <ul class="ul">
-                <li class="first-link">
-                    <a href="home.html">Home</a>
+    <header class="nav-container flex row quicksand">
+        <nav class="nav">
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <a class="white" href="home.html">Home</a>
                 </li>
                 <li class="nav-link">
-                    <a href="about.html">About</a>
+                    <a class="white" href="about.html">About</a>
                 </li>
                 <li class="nav-link">
-                    <a href="litters.html">Litters</a>
+                    <a class="white" href="litters.html">Litters</a>
                 </li>
                 <li class="nav-link">
-                    <a href="social.html">Social</a>
+                    <a class="white" href="#">Social</a>
                 </li>
-                <li class="last-link">
-                    <a href="contact.html">Contact</a>
+                <li class="nav-link">
+                    <a class="white" href="#">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
+    <main class="home-main flex column white">
+        <h1 class="quicksand our-dogs">Our Dogs</h1>
 
-
-    <section class="litter-h1-container quicksand">
-        <h1 class="litter-h1">Our Corsos</h1>
-    </section>
-
-    <main class="home-main quicksand">
-
-        <section class="main-image-container">
-            <img class="main-image" src="/assets/img/placehold.jpeg" alt="">
-            <section class="detail-container">
+        <section class="our-dogs-container">
+            <section class="dog-details">
+                <div class="dog-img-container">
+                    <img class="dog-img" src="/assets/img/placehold.jpeg" alt="">
+                </div>
                 <ul class="dog-detail-list">
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Name:</p>
                         <p>Rose</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Age:</p>
                         <p>3</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Sex:</p>
                         <p>Female</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Color:</p>
                         <p>Black</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Pedigree:</p>
                         <p>Purebred</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Temperament:</p>
                         <p>Docile</p>
                     </li>
                 </ul>
             </section>
-        </section>
 
-        <section class="main-image-container">
-            <img class="main-image" src="/assets/img/placeholder2.png" alt="">
-            <section class="detail-container">
+            <section class="dog-details">
+                <div class="dog-img-container">
+                    <img class="dog-img" src="/assets/img/placeholder2.png" alt="">
+                </div>
                 <ul class="dog-detail-list">
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Name:</p>
                         <p>Ghost</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Age:</p>
                         <p>2</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Sex:</p>
-                        <p>Female</p>
+                        <p>Male</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Color:</p>
                         <p>Beige</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Pedigree:</p>
                         <p>Purebred</p>
                     </li>
-                    <li class="details">
+                    <li class="details flex row">
                         <p class="category">Temperament:</p>
                         <p>Docile</p>
                     </li>
                 </ul>
             </section>
         </section>
-
     </main>
 
     <div class="line-bar-container">
         <hr>
     </div>
 
-    <footer class="foot">
-        <p class="quicksand follow">Follow us on Instagram:</p>
+    <footer class="flex row foot">
+        <p class="quicksand cream follow">Follow us on Instagram:</p>
         <span>
-            <a href="https://www.instagram.com/rc_corsos/?igshid=YmMyMTA2M2Y=">
-                <i class="fa-brands fa-instagram fa-3x ig"></i>
+            <a href="#">
+                <i class="cream fa-brands fa-instagram fa-3x ig"></i>
             </a>
         </span>
     </footer>

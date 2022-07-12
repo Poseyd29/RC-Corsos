@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="about.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@500&family=Lato:wght@300&family=Quicksand:wght@400;600&display=swap"
@@ -16,32 +16,36 @@
 </head>
 
 <body>
-    <header class="nav-container">
-        <nav class="navbar quicksand">
-            <ul class="ul">
-                <li class="first-link">
-                    <a href="home.html">Home</a>
+    <header class="nav-container flex row quicksand">
+        <nav class="nav">
+            <ul class="nav-links">
+                <li class="nav-link">
+                    <a class="white" href="home.html">Home</a>
                 </li>
                 <li class="nav-link">
-                    <a href="about.html">About</a>
+                    <a class="white" href="about.html">About</a>
                 </li>
                 <li class="nav-link">
-                    <a href="litters.html">Litters</a>
+                    <a class="white" href="litters.html">Litters</a>
                 </li>
                 <li class="nav-link">
-                    <a href="#">Social</a>
+                    <a class="white" href="#">Social</a>
                 </li>
-                <li class="last-link">
-                    <a href="#">Contact</a>
+                <li class="nav-link">
+                    <a class="white" href="#">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main class="home-main">
-        <div class="home-p">
+    <div class="main-image-container">
+        <img class="main-image" src="/assets/img/black-corso.jpeg" alt="">
+    </div>
+
+    <main class="home-main flex column white">
+        <div class="home-p flex column">
             <section class="home-paragraphs quicksand">
-                <h1 class="welcome-h1">Why Corso's?</h1>
+                <h1 class="welcome-h1 cream">Why Corso's?</h1>
 
                 <p class="pfont-style">We began the process of breeding Cane Corso's back in 2019 when we fell in love with this breed. The presence,
                     and stature of Corso's are awe inspiring, but the gentleness these dogs display completely sold us, and
@@ -49,7 +53,7 @@
             </section>
 
             <section class="home-paragraphs quicksand">
-                <h1 class="welcome-h1">My Experience</h1>
+                <h1 class="welcome-h1 cream">My Experience</h1>
 
                 <p class="pfont-style">These dogs are very special to us, and we consider them an integral part of our family. The love we give
                     them is returned many times over by their loyalty and devotion. The children have fallen in love with
@@ -59,12 +63,13 @@
             </section>
 
             <section class="home-paragraphs quicksand">
-                <h1 class="welcome-h1">Our Mission</h1>
+                <h1 class="welcome-h1 cream">Our Mission</h1>
 
                 <p class="pfont-style">We are truly committed to bettering the Cane Corso breed, and consider ourselves privileged to experience
                     the important moments with this breed that make us fall in love with the Cane Corso over again each day.
                     We strive to provide healthy, social, and well-trained pups that will be a wonderful addition to any
-                    family!</p>
+                    family!
+                </p>
             </section>
         </div>
     </main>
@@ -73,11 +78,11 @@
         <hr>
     </div>
 
-    <footer class="foot">
-        <p class="quicksand follow">Follow us on Instagram:</p>
+    <footer class="flex row foot">
+        <p class="quicksand white follow cream">Follow us on Instagram:</p>
         <span>
             <a href="#">
-                <i class="fa-brands fa-instagram fa-3x ig"></i>
+                <i class="cream fa-brands fa-instagram fa-3x ig"></i>
             </a>
         </span>
     </footer>
